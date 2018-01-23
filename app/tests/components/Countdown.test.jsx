@@ -8,7 +8,7 @@ var Countdown= require('Countdown');
 
 describe('Countdown',()=>{
   it('Countdown should exist',()=>{
-    expect(Countdown).Exist;
+    expect(Countdown).toExist();
   });
     describe('handlesetcountdown',()=>{
         it('countdown status should change and count should update',(done)=>{

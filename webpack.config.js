@@ -28,7 +28,8 @@ var webpack=require('webpack');
        Timer:'app/components/Timer.jsx',
        Countdown:'app/components/Countdown.jsx',
        Clock:'app/components/Clock.jsx',
-       CountdownForm:'app/components/CountdownForm.jsx'
+       CountdownForm:'app/components/CountdownForm.jsx',
+       Controls:'app/components/Controls.jsx'
      },
      extensions: ['','.js','.jsx']
    },
